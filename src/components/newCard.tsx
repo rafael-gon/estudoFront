@@ -6,9 +6,9 @@ export function Card(){
             <button className="w-24 h-24 bg-blue-400 text-2xl text-white flex text-center items-center justify-center rounded-full hover:brightness-110 hover:rotate-180 transition-all duration-500">
                 <BiPlus/>
             </button>
-            <div className="flex flex-col gap-3">
+            <div className="flex flex-col gap-3 px-4">
                 <p className="text-md text-white cursor-default">Write New Card</p>
-                <p className="text-xs text-white text-opacity-50 cursor-default">Your entire product design workflow — connected</p>
+                <p className="text-xs text-white text-opacity-50 cursor-default">Add elemente card component to add something in page .</p>
             </div>
         </div>
     )

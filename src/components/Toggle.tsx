@@ -3,7 +3,7 @@ export function Toggle(props: any) {
     <div className="bg-white py-5 px-10 rounded-3xl shadow-md flex justify-center w-fit">
       <label className="cursor-pointer flex">
         <input type="checkbox" value="" className="sr-only peer" />
-        <span className="peer text-sm select-none pr-4 cursor-pointer transition-all peer-checked:text-red-300">
+        <span className="peer text-sm select-none pr-4 cursor-pointer transition-all text-grey-400 peer-checked:text-red-300">
           {props.title}
         </span>
         <div className="peer peer-checked:after:translate-x-full peer-checked:bg-red-300
@@ -13,4 +13,4 @@ export function Toggle(props: any) {
       </label>
     </div>
   );
-};
+}

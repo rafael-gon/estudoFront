@@ -11,14 +11,13 @@ export function Subscribe(){
                 </button>
             </div>
             
-            <p className='text-start mb-7 cursor-default'>Subscribe card to receive the newsletters or follow the news .</p>
+            <p className='text-start mb-7 cursor-default'>Subscribe card to receive the newsletters or follow news .</p>
             
             <div className=" flex items-center text-center pl-6 bg-white rounded-full">
                 <input type="email" placeholder="Type your email" className="text-xs h-4 w-40 text-black outline-none"/>
                 <div className="w-[1px] h-8 bg-grey-500"></div>
                 <button className="py-4 px-6 text-black">Subscribe</button>
             </div>
-            <p className='text-[9px] mt-2'>this is just a front-end component</p>
         </div>
     )
 }
